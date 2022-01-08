@@ -17,8 +17,8 @@ export const PortalContainer = forwardRef(({ children }, ref) => (
     ref={ref}
     className="voxel-portal"
     m="auto"
-    mt={['-20px', '-30px', '-120px']}
-    mb={['-20px', '-200px', '-200px']}
+    mt={['-50px', '-200px', '-250px']}
+    mb={['-50px', '-100px', '-180px']}
     w={[380, 580, 740]}
     h={[480, 680, 810]}
     position="relative"
