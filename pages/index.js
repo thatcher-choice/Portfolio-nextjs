@@ -68,7 +68,7 @@ const Page = () => {
             bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           >
             <Paragraph>
-              Diwakar is a freelance and a aspiring full-stack developer based
+              Diwakar is a freelance and a full-stack developer based
               in Kathmandu,Nepal with a passion for designing and developing
               different mobile/web-based applications. He has a knack for many
               things such as problem-solving, app-development as well as working

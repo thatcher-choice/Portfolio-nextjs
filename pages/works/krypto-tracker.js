@@ -6,34 +6,35 @@ import Layout from '../../components/layouts/article'
 
 
 const Work = () => (
-  <Layout title="Simple Image Processing">
+  <Layout title="COVID-X">
     <Container>
       <Title>
-        Simple Image Processing <Badge>2020-</Badge>
+        Krypto-Tracker <Badge>2022-</Badge>
       </Title>
       <P>
-            A simple image processing application in PHP to turn colored image into polarised image
+        A full-stack crypto-currency tracking application that tracks different crypto and provides a comparitive analysis.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Github Link</Meta>
-          <Link href="https://github.com/Thunderk3g/SimpleImageProcessing">
-          https://github.com/Thunderk3g/SimpleImageProcessing<ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/Thunderk3g/Krypto-Tracker">
+          https://github.com/Thunderk3g/Krypto-Tracker<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/Android</span>
+          <span>Windows/Android/Ios</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Codeigniter, PHP, Javascript</span>
+          <span>Angular, NodeJS, MongoDB , Express</span>
         </ListItem>
       </List>
 
 
-      <WorkImage src="/images/works/simple.png" alt="simple" />
-      
+      <WorkImage src="/images/works/krypto_tracker(1).png" alt="krypto-tracker" />
+      <WorkImage src="/images/works/krypto_tracker(2).png" alt="krypto-tracker" />
+      <WorkImage src="/images/works/krypto_tracker(3).png" alt="krypto-tracker" />
     </Container>
   </Layout>
 )
