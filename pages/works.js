@@ -21,7 +21,7 @@ const Works = () => {
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
       <Section>
-          <WorkGridItem id="krypto-" title="Krypto-Tracker" thumbnail={thumbKrypto}>
+          <WorkGridItem id="krypto-tracker" title="Krypto-Tracker" thumbnail={thumbKrypto}>
              A cryptocurrency tracking application
           </WorkGridItem>
         </Section>
