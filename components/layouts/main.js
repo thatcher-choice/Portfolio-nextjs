@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Navbar from '../navbar'
+import Footer from '../footer'
 import { Box ,Container } from "@chakra-ui/react"
 import VoxelPortal from "../voxel-portal"
 const Main = ({children, router}) =>{
@@ -15,6 +16,7 @@ const Main = ({children, router}) =>{
          
       
         {children}
+        <Footer/>
     </Container>
     </Box>
     )   

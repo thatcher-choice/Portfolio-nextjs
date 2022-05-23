@@ -114,8 +114,35 @@ const Page = () => {
               <BioYear>2022</BioYear>
               Graduated in Computer Science Engineering from S.R.M University
             </BioSection>
+            <BioSection>
+              <BioYear>2022 to Present</BioYear>
+              Working as a developer in Bajaj Finserv
+            </BioSection>
           </Box>
         </Section>
+        <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I ♥
+        </Heading>
+        <Box
+            borderRadius="lg"
+            mb={6}
+            p={3}
+            textAlign="left"
+            bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+          >
+        <Paragraph>
+          Art, Music,{' '}
+            Doodling
+          , Playing Guitar,{' '}
+          <Link href="https://steamcommunity.com/profiles/76561198207271525" target="_blank">
+            Gaming
+          </Link>
+          , Working Out, Trekking
+        </Paragraph>
+        </Box>
+      </Section>
+
         <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           On the web
