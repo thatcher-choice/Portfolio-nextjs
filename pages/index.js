@@ -75,7 +75,7 @@ const Page = () => {
               in team based enviroment and learning new and upcoming
               technologies. When not working, he loves trekking , fitness and
               has a passion for adventure. Currently, he is in his final year in
-              software development and working as an Angular Intern in Bajaj
+              software development and working as an Full Stack Developer in Bajaj
               Finserv.
             </Paragraph>
           </Box>
@@ -116,7 +116,7 @@ const Page = () => {
             </BioSection>
             <BioSection>
               <BioYear>2022 to Present</BioYear>
-              Working as a developer in Bajaj Finserv
+              Working as a Full Stack Developer in Bajaj Finserv
             </BioSection>
           </Box>
         </Section>
