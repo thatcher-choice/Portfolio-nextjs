@@ -21,16 +21,6 @@ const Page = () => {
   return (
     <Layout>
       <Container>
-        <Box
-          borderRadius="lg"
-          mb={6}
-          p={3}
-          textAlign="center"
-          bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        >
-          Hello, I&apos;m a full-stack developer based in Nepal!
-        </Box>
-
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
@@ -58,6 +48,23 @@ const Page = () => {
         </Box>
         <Section>
           <Heading as="h3" variant="section-title">
+            About Me
+          </Heading>
+          <Box
+            borderRadius="lg"
+            mb={6}
+            p={3}
+            textAlign="center"
+            bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+          >
+            <Paragraph>
+              Hi everyone,I am Diwakar Adhikari. I am 22 years old and currently work as a Software Engineer in Bajaj Finserv, based in Pune. In addition being a developer, I am very much a fitness enthuist,into bodybuilding(Son of Zyzz) ,calisthenics and combat sports.
+              I also love music,philosophy as well as adventure-sports and go for mountain-climbing(the last one was Tilcho lake,2020) and trekking whenever I can.
+            </Paragraph>
+          </Box>
+        </Section>
+        <Section>
+          <Heading as="h3" variant="section-title">
             Work
           </Heading>
           <Box
@@ -68,15 +75,8 @@ const Page = () => {
             bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           >
             <Paragraph>
-              Diwakar is a freelance and a full-stack developer based
-              in Kathmandu,Nepal with a passion for designing and developing
-              different mobile/web-based applications. He has a knack for many
-              things such as problem-solving, app-development as well as working
-              in team based enviroment and learning new and upcoming
-              technologies. When not working, he loves trekking , fitness and
-              has a passion for adventure. Currently, he is in his final year in
-              software development and working as an Full Stack Developer in Bajaj
-              Finserv.
+             My work-related tech stack is MEAN (mongoDB, ExpressJS, Angular and Nodejs) but i love learning new frameworks as well as language.
+             Right now I am trying out Solidity , Next.Js and ChakraUI.You can checkout some of my work in my portfolio.
             </Paragraph>
           </Box>
           <Box align="center" my={4}>
@@ -116,7 +116,7 @@ const Page = () => {
             </BioSection>
             <BioSection>
               <BioYear>2022 to Present</BioYear>
-              Working as a Full Stack Developer in Bajaj Finserv
+              Working as a Software Engineer in Bajaj Finserv
             </BioSection>
           </Box>
         </Section>
