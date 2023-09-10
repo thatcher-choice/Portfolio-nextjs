@@ -2,9 +2,9 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbCovid from '../public/images/works/covid_codeigniter.png'
-import thumbCovMean from '../public/images/works/covid_MEAN.png'
-import thumbKrypto from '../public/images/works/krypto_tracker(1).png'
-import thumbHMS from '../public/images/works/HMS.png'
+import thumbCovMean from '../public/images/works/pilani-memories-1.png'
+import thumbKrypto from '../public/images/works/parc-1.png'
+import thumbHMS from '../public/images/works/portfolio-3.png'
 import thumbIIJIS from '../public/images/works/IIJIS.png'
 import thumbThunderkeg from '../public/images/works/thunderkeg.png'
 import thumbKancha from '../public/images/works/kancha-bot.png'
@@ -21,38 +21,38 @@ const Works = () => {
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
       <Section>
-          <WorkGridItem id="krypto-tracker" title="Krypto-Tracker" thumbnail={thumbKrypto}>
-             A cryptocurrency tracking application
+          <WorkGridItem id="parc-helpdesk" title="PARC-Helpdesk" thumbnail={thumbKrypto}>
+            Helpdesk for the local people of Pilani to help  them regarding various government/NGO schemes
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="covMean" title="COVID-X v2.0" thumbnail={thumbCovMean}>
-             A COVID Resource management system built on the MEAN stack
+          <WorkGridItem id="pilani-memories" title="PILANI-memories" thumbnail={thumbCovMean}>
+          A MERN stack application with Google Maps integration, allowing users to create and explore cherished memories tied to specific locations.
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="hms"
-            title="HMS"
+            id="aniketraj-portfolio"
+            title="Aniketraj-Portfolio"
             thumbnail={thumbHMS}
           >
-            Hospital Management System
-          </WorkGridItem>
-        </Section>
-
-        <Section delay={0.1}>
-        <WorkGridItem id="kancha-bot" thumbnail={thumbKancha} title="Kancha-Bot">
-           A Nepali Discord bot that plays music and plays Wordle with you.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="thunderkeg" thumbnail={thumbThunderkeg} title="Thunderkeg-Portfolio">
             A portfolio web-application made using Next.js , Chakra UI , Framer-Motion and Threejs
           </WorkGridItem>
         </Section>
+
+        {/* <Section delay={0.1}>
+        <WorkGridItem id="Brownie-fund-me" thumbnail={thumbKancha} title="Brownie-fund-me">
+        Brownie Fund Me is a smart contract application that helps you raise funds using the Brownie framework for Ethereum smart contracts.
+          </WorkGridItem>
+        </Section> */}
+        {/* <Section delay={0.1}>
+          <WorkGridItem id="thunderkeg" thumbnail={thumbThunderkeg} title="Thunderkeg-Portfolio">
+            A portfolio web-application made using Next.js , Chakra UI , Framer-Motion and Threejs
+          </WorkGridItem>
+        </Section> */}
       </SimpleGrid>
 
-      <Section delay={0.4}>
+      {/* <Section delay={0.4}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
@@ -62,7 +62,7 @@ const Works = () => {
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="covid-x" thumbnail={thumbCovid} title="COVID-X">
+          <WorkGridItem id="covid-x" thumbnail={thumbCovid} title="PILANI-memories">
             A covid statistics provider in Codeigniter Framework.
           </WorkGridItem>
         </Section>
@@ -75,7 +75,7 @@ const Works = () => {
             A full stack web-site for Indian Innovations: Journal of Indian Start-Ups
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
     </Container>
   </Layout>
   )

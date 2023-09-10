@@ -23,7 +23,7 @@ const Logo = () => {
   const lightningImg = `/images/lightning${useColorModeValue('', '-dark')}.png`
 
   return (
-    <Link href="/">
+    <Link href="http://localhost:5173/">
       <a>
         <LogoBox>
           <Image src={lightningImg} width={40} height={40} alt="logo" />
@@ -33,7 +33,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Raijin Thunderkeg
+            Aniketraj Jha
           </Text>
         </LogoBox>
       </a>

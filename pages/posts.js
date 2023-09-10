@@ -51,24 +51,24 @@ const Posts = () => (
       <Text>You can follow me on my social media till then</Text>
      <List>
           <ListItem>
-            <Link href="https://github.com/Thunderk3g" target="_blank">
+            <Link href="https://github.com/thatcher-choice" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @Thunderk3g
+                @Thatcher
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/khuching_paryo" target="_blank">
+            <Link href="https://instagram.com/anni.x.jha" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoInstagram} />}
               >
-                @khuching_paryo
+                @anni.x.jha
               </Button>
             </Link>
           </ListItem>

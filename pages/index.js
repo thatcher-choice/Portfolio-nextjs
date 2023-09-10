@@ -24,7 +24,7 @@ const Page = () => {
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              Diwakar Adhikari
+              Aniketraj Jha
             </Heading>
             <p>( Artist / Developer / Designer )</p>
           </Box>
@@ -41,7 +41,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/diwakar.jpg"
+              src="/images/aniketraj"
               alt="Profile image"
             />
           </Box>
@@ -58,8 +58,7 @@ const Page = () => {
             bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           >
             <Paragraph>
-              Hi everyone,I am Diwakar Adhikari. I am 22 years old and currently work as a Software Engineer in Bajaj Finserv, based in Pune. In addition being a developer, I am very much a fitness enthuist,into bodybuilding(Son of Zyzz) ,calisthenics and combat sports.
-              I also love music,philosophy as well as adventure-sports and go for mountain-climbing(the last one was Tilcho lake,2020) and trekking whenever I can.
+              Hi everyone,I am Aniketraj Jha. I am 23 years old and currently work as a Software Engineer in Bajaj Finserv, based in Pune. When I'm not immersed in the world of coding, you'll often find me exploring new destinations and embracing the wonders of travel. I believe that just as each line of code can tell a story, so can every journey leave an indelible mark on our lives
             </Paragraph>
           </Box>
         </Section>
@@ -76,7 +75,7 @@ const Page = () => {
           >
             <Paragraph>
              My work-related tech stack is MEAN (mongoDB, ExpressJS, Angular and Nodejs) but i love learning new frameworks as well as language.
-             Right now I am trying out Solidity , Next.Js and ChakraUI.You can checkout some of my work in my portfolio.
+             Right now I am trying out Springboot , React and NextJs.You can checkout some of my work in my portfolio.
             </Paragraph>
           </Box>
           <Box align="center" my={4}>
@@ -100,19 +99,23 @@ const Page = () => {
           >
             <BioSection>
               <BioYear>2000</BioYear>
-              Born in Kathmandu (काठमाडौं), Nepal.
+              Born in , Maharashtra.
             </BioSection>
             <BioSection>
-              <BioYear>2017</BioYear>
-              Graduated High-School from United Academy.
+              <BioYear>2018</BioYear>
+              Graduated High-School from Sankalp Academy
             </BioSection>
             <BioSection>
-              <BioYear>2021</BioYear>
-              Worked at Codeaxes Digital Solutions as a Full-Stack Intern
+              <BioYear>2019</BioYear>
+                Worked at Birla Polyfibers as Environmental Analyst
             </BioSection>
             <BioSection>
               <BioYear>2022</BioYear>
-              Graduated in Computer Science Engineering from S.R.M University
+              Worked at PARC as a full stack Developer.
+            </BioSection>
+            <BioSection>
+              <BioYear>2022</BioYear>
+              Graduated from BITS Pilani
             </BioSection>
             <BioSection>
               <BioYear>2022 to Present</BioYear>
@@ -149,24 +152,24 @@ const Page = () => {
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/Thunderk3g" target="_blank">
+            <Link href="https://github.com/thatcher-choice" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @Thunderk3g
+                @Thatcher
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/khuching_paryo" target="_blank">
+            <Link href="https://www.instagram.com/anni.x.jha" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoInstagram} />}
               >
-                @khuching_paryo
+                @anni.x.jha
               </Button>
             </Link>
           </ListItem>

@@ -9,7 +9,7 @@ const Work = () => (
   <Layout title="thunderkeg-homepage">
     <Container>
       <Title>
-        Thunderkeg-Homepage<Badge>2022-</Badge>
+        Aniketraj-Homepage<Badge>2023-</Badge>
       </Title>
       <P>
          A personal portfolio made using Next.js,Chakra UI, Framer Motion and Three.js

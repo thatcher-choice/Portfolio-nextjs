@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/article'
 
 
 const Work = () => (
-  <Layout title="COVID-X">
+  <Layout title="PILANI-memories">
     <Container>
       <Title>
         COVID-X v1.0 <Badge>2019-</Badge>
