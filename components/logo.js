@@ -23,7 +23,7 @@ const Logo = () => {
   const lightningImg = `/images/lightning${useColorModeValue('', '-dark')}.png`
 
   return (
-    <Link href="http://localhost:5173/">
+    <Link href="https://aniketraj-portfolio.vercel.app/">
       <a>
         <LogoBox>
           <Image src={lightningImg} width={40} height={40} alt="logo" />
