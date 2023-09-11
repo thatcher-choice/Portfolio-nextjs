@@ -1,13 +1,10 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-import thumbCovid from '../public/images/works/covid_codeigniter.png'
 import thumbCovMean from '../public/images/works/pilani-memories-1.png'
 import thumbKrypto from '../public/images/works/parc-1.png'
 import thumbHMS from '../public/images/works/portfolio-3.png'
-import thumbIIJIS from '../public/images/works/IIJIS.png'
-import thumbThunderkeg from '../public/images/works/thunderkeg.png'
-import thumbKancha from '../public/images/works/kancha-bot.png'
+
 
 import Layout from '../components/layouts/article'
 

@@ -58,7 +58,7 @@ const Page = () => {
             bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           >
             <Paragraph>
-              Hi everyone,I am Aniketraj Jha. I am 23 years old and currently work as a Software Engineer in Bajaj Finserv, based in Pune. When I'm not immersed in the world of coding, you'll often find me exploring new destinations and embracing the wonders of travel. I believe that just as each line of code can tell a story, so can every journey leave an indelible mark on our lives
+              {`Hi everyone,I am Aniketraj Jha. I am 23 years old and currently work as a Software Engineer in Bajaj Finserv, based in Pune. When I'm not immersed in the world of coding, you'll often find me exploring new destinations and embracing the wonders of travel. I believe that just as each line of code can tell a story, so can every journey leave an indelible mark on our lives`}
             </Paragraph>
           </Box>
         </Section>
