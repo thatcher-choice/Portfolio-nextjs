@@ -4,7 +4,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbCovMean from '../public/images/works/pilani-memories-1.png'
 import thumbKrypto from '../public/images/works/parc-1.png'
 import thumbHMS from '../public/images/works/portfolio-3.png'
-
+import gamerSift from '../public/images/works/gamer-sift-1.png' 
 
 import Layout from '../components/layouts/article'
 
@@ -37,11 +37,11 @@ const Works = () => {
           </WorkGridItem>
         </Section>
 
-        {/* <Section delay={0.1}>
-        <WorkGridItem id="Brownie-fund-me" thumbnail={thumbKancha} title="Brownie-fund-me">
-        Brownie Fund Me is a smart contract application that helps you raise funds using the Brownie framework for Ethereum smart contracts.
+        <Section delay={0.1}>
+        <WorkGridItem id="gamer-sift" thumbnail={gamerSift} title="GamerSift - Your Gaming Data Hub">
+            GamerSift is a dynamic web platform created using Angular and powered by the rawg.io API, designed for avid gamers and enthusiasts
           </WorkGridItem>
-        </Section> */}
+        </Section>
         {/* <Section delay={0.1}>
           <WorkGridItem id="thunderkeg" thumbnail={thumbThunderkeg} title="Thunderkeg-Portfolio">
             A portfolio web-application made using Next.js , Chakra UI , Framer-Motion and Threejs

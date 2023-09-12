@@ -138,9 +138,7 @@ const Page = () => {
           Art, Music,{' '}
             Doodling
           , Playing Guitar,{' '}
-          <Link href="https://steamcommunity.com/profiles/76561198207271525" target="_blank">
             Gaming
-          </Link>
           , Working Out, Trekking
         </Paragraph>
         </Box>
