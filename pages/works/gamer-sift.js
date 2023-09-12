@@ -12,7 +12,7 @@ const Work = () => (
       Gamer-Sift <Badge>2022-</Badge>
       </Title>
       <P>
-      Dive into the gaming world with GamerSift, where you can explore, compare, and discover your favorite games and their captivating details. Whether you're a casual player or a dedicated gamer, GamerSift is your go-to destination for in-depth gaming insights and a treasure trove of interactive experiences. Explore, sift, and level up your gaming knowledge with GamerSift.      </P>
+      {`Dive into the gaming world with GamerSift, where you can explore, compare, and discover your favorite games and their captivating details. Whether you're a casual player or a dedicated gamer, GamerSift is your go-to destination for in-depth gaming insights and a treasure trove of interactive experiences. Explore, sift, and level up your gaming knowledge with GamerSift.`}      </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Github Link</Meta>
