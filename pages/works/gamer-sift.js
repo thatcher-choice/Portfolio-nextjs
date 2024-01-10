@@ -21,6 +21,12 @@ const Work = () => (
           </Link>
         </ListItem>
         <ListItem>
+          <Meta>Website Link</Meta>
+          <Link href="gamer-sift.vercel.app">
+          gamer-sift.vercel.app<ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
           <Meta>Platform</Meta>
           <span>Windows/Android/IOs</span>
         </ListItem>

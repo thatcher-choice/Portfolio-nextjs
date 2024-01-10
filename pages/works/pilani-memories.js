@@ -23,6 +23,12 @@ const Work = () => (
           </Link>
         </ListItem>
         <ListItem>
+          <Meta>Website Link</Meta>
+          <Link href="https://pilani-memories.netlify.app/posts">
+          https://pilani-memories.netlify.app/posts<ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
           <Meta>Platform</Meta>
           <span>Windows/Android/iOS/Linux</span>
         </ListItem>
