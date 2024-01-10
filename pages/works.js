@@ -17,11 +17,6 @@ const Works = () => {
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      <Section>
-          <WorkGridItem id="parc-helpdesk" title="PARC-Helpdesk" thumbnail={thumbKrypto}>
-            Helpdesk for the local people of Pilani to help  them regarding various government/NGO schemes
-          </WorkGridItem>
-        </Section>
         <Section>
           <WorkGridItem id="pilani-memories" title="PILANI-memories" thumbnail={thumbCovMean}>
           A MERN stack application with Google Maps integration, allowing users to create and explore cherished memories tied to specific locations.
@@ -36,7 +31,12 @@ const Works = () => {
             A portfolio web-application made using Next.js , Chakra UI , Framer-Motion and Threejs
           </WorkGridItem>
         </Section>
-
+        <Section>
+          <WorkGridItem id="parc-helpdesk" title="PARC-Helpdesk" thumbnail={thumbKrypto}>
+            Helpdesk for the local people of Pilani to help  them regarding various government/NGO schemes
+          </WorkGridItem>
+        </Section>
+        
         <Section delay={0.1}>
         <WorkGridItem id="gamer-sift" thumbnail={gamerSift} title="GamerSift - Your Gaming Data Hub">
             GamerSift is a dynamic web platform created using Angular and powered by the rawg.io API, designed for avid gamers and enthusiasts
