@@ -23,7 +23,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Vercel Link</Meta>
-          <Link href="">
+          <Link href="https://aniketraj-portfolio.vercel.app/">https://aniketraj-portfolio.vercel.app/
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
