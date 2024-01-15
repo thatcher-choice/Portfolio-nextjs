@@ -20,8 +20,7 @@ const NotFound = () => {
           p={3}
           textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        >
-        <Heading as="h1" >Sheesh!! Go Away! You potato</Heading>       
+        >    
          </Box>
      
       <Box
@@ -30,16 +29,6 @@ const NotFound = () => {
             ml={{ md: 6 }}
             textAlign="center"
           >
-            <Image
-              borderColor="whiteAlpha.800"
-              borderWidth={2}
-              borderStyle="solid"
-              maxWidth="200px"
-              display="inline-block"
-              borderRadius="full"
-              src="/images/404.jpg"
-              alt="Profile image"
-            />
           </Box>
           <Box
           borderRadius="lg"
