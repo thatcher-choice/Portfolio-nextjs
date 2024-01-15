@@ -1,11 +1,9 @@
 import NextLink from 'next/link'
 import {
   Box,
-  Heading,
   Text,
   Container,
   Divider,
-  Image,
   Button,
   useColorModeValue
 
