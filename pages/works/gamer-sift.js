@@ -22,8 +22,8 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Website Link</Meta>
-          <Link href="gamer-sift.vercel.app">
-          gamer-sift.vercel.app<ExternalLinkIcon mx="2px" />
+          <Link href="https://gamer-sift.vercel.app">
+          https://gamer-sift.vercel.app<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
